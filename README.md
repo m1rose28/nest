@@ -10,8 +10,14 @@ The project can be imported through Android Studio or Intellij by selecting File
 
 After importing the application, select 'run' and select any Android emulator or device that is running API level 14 (Ice Cream Sandwich, Android 4.0) or greater.
 
+## Contributing
+
+Contributions are always welcome and highly encouraged.
+
+See [CONTRIBUTING](CONTRIBUTING.md) for more information on how to get started.
 
 ## License
+
 Copyright 2014 Nest Labs Inc. All Rights Reserved.
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 http://www.apache.org/licenses/LICENSE-2.0
