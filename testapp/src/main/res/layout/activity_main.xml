@@ -9,9 +9,12 @@
     limitations under the License.
     -->
 
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
+                android:background="@drawable/coolio"
                 android:layout_height="match_parent"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
                 android:paddingRight="@dimen/activity_horizontal_margin"
@@ -21,21 +24,16 @@
 
     <TextView
             android:id="@+id/structure_name"
+            android:textSize="50sp"
+            android:textColor="#2f9bd2"
             android:layout_alignParentTop="true"
-            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-    <Button
-            android:id="@+id/structure_away_btn"
-            android:layout_below="@id/structure_name"
             android:layout_width="wrap_content" android:layout_height="wrap_content"/>
 
     <TextView
             android:id="@+id/ambient_temp"
             android:layout_alignParentRight="true"
+            android:textSize="50sp"
             android:layout_width="100dp" android:layout_height="wrap_content" />
-
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="Current temp:"
-            android:layout_toLeftOf="@id/ambient_temp"/>
 
     <RelativeLayout
             android:id="@+id/thermostat_view"
@@ -55,6 +53,9 @@
             android:layout_alignParentBottom="true"
             android:weightSum="4"
             android:orientation="horizontal">
+
+        <Button android:id="@+id/structure_away_btn" android:text="Away" android:layout_weight="1" android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
         <Button android:id="@+id/heat" android:text="Heat" android:layout_weight="1" android:layout_width="0dp"
                 android:layout_height="wrap_content"/>
         <Button android:id="@+id/cool" android:text="Cool" android:layout_weight="1" android:layout_width="0dp"
@@ -65,10 +66,5 @@
                 android:layout_height="wrap_content"/>
     </LinearLayout>
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Thermostat mode:"
-            android:layout_above="@id/hvac_mode_control_container"/>
 
 </RelativeLayout>

@@ -12,7 +12,7 @@
 package com.nestapi.codelab.demo;
 
 public class Constants {
-    public static final String CLIENT_ID = "<insert-your-client-id-here>";
-    public static final String CLIENT_SECRET = "<insert-your-client-secret-here>";
-    public static final String REDIRECT_URL = "<insert-your-redirect-url-here>";
+    public static final String CLIENT_ID = "e1cf62b4-19e8-4703-9087-65002cc276fc";
+    public static final String CLIENT_SECRET = "tUAMfDsoVuckbV2c6lOLcPd7M";
+    public static final String REDIRECT_URL = "https://greatapps.net/coolio/nestapi.php";
 }

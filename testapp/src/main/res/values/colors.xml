@@ -11,8 +11,8 @@ limitations under the License.
 -->
 
 <resources>
-    <color name="heat">#E15E1F</color>
-    <color name="cool">#006BEC</color>
-    <color name="white">#FFFFFF</color>
-    <color name="off">#222222</color>
+    <color name="heat">#CCE15E1F</color>
+    <color name="cool">#CC006BEC</color>
+    <color name="white">#CCFFFFFF</color>
+    <color name="off">#CC222222</color>
 </resources>
